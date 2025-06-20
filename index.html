@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zaheer Ahmed - AI & ML Enthusiast | Cybersecurity Specialist | IT Engineer. Portfolio showcasing projects, skills, and experience in technology.">
+    <meta name="keywords" content="Zaheer Ahmed, AI, Machine Learning, Cybersecurity, IT Engineer, Web Development, Python, Portfolio">
+    <meta name="author" content="Zaheer Ahmed">
+    <title>Zaheer Ahmed - AI & ML Enthusiast | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- External Libraries -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <!-- Fixed Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span>ZA</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                    <a href="#awards" class="nav-link">Awards</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#team" class="nav-link">Team</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Theme Toggle & Mobile Menu -->
+                <div class="nav-controls">
+                    <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    
+                    <!-- Mobile menu button -->
+                    <div class="mobile-menu-btn">
+                        <button id="mobile-toggle" aria-label="Toggle mobile menu">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="mobile-nav">
+            <div class="mobile-nav-content">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#education" class="mobile-nav-link">Education</a>
+                <a href="#skills" class="mobile-nav-link">Skills</a>
+                <a href="#certificates" class="mobile-nav-link">Certificates</a>
+                <a href="#awards" class="mobile-nav-link">Awards</a>
+                <a href="#projects" class="mobile-nav-link">Projects</a>
+                <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+                <a href="#team" class="mobile-nav-link">Team</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-grid">
+                <!-- Hero Content -->
+                <div class="hero-content animate__animated animate__fadeInLeft">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Zaheer Ahmed</span>
+                    </h1>
+                    <p class="hero-subtitle">AI & ML Enthusiast | Cybersecurity Specialist | IT Engineer</p>
+                    <p class="hero-description">
+                        Passionate about creating innovative solutions that make a difference. Dedicated B.Tech student with expertise in AI, ML, and Cybersecurity.
+                    </p>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Get in Touch
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-folder-open"></i>
+                            View Projects
+                        </a>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/zaheer-ahmed-9aa78130a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Zaheer-Ahmed015" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/zaheerkhan04ITE" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="http://t.me/IT_Zaheer" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Image -->
+<div class="hero-image animate__animated animate__fadeInRight">
+    <div class="profile-image">
+        <div class="profile-placeholder">
+            <img src="./Assets/profile.jpg" alt="Profile Image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my journey and expertise</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content animate-on-scroll">
+                    <div class="about-text">
+                        <p>Welcome to my portfolio! I'm Zaheer Ahmed, a dedicated B.Tech student in Information Technology Engineering at Baba Ghulam Shah Badshah University, Rajouri (Batch 2023).</p>
+                        <p>My passion lies in Artificial Intelligence, Machine Learning, and Cybersecurity. I thrive on solving complex problems and creating innovative solutions that make a difference.</p>
+                        <p>With a strong foundation in IT and hands-on experience in various projects, I'm committed to continuous learning and collaboration.</p>
+                    </div>
+
+                    <!-- Core Competencies -->
+                    <div class="competencies">
+                        <h3>Core Competencies</h3>
+                        <ul class="competencies-list">
+                            <li><i class="fas fa-check"></i> Artificial Intelligence & Machine Learning</li>
+                            <li><i class="fas fa-check"></i> Cybersecurity & Ethical Hacking</li>
+                            <li><i class="fas fa-check"></i> Web Development (HTML, CSS, JavaScript)</li>
+                            <li><i class="fas fa-check"></i> Python Programming</li>
+                            <li><i class="fas fa-check"></i> Database Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-btn-container">
+                        <a href="./Assets/zaheercv.pdf" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+
+                <div class="stats-grid animate-on-scroll">
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey and achievements</p>
+            </div>
+
+            <div class="education-grid">
+                <div class="education-card animate-on-scroll">
+                    <div class="education-image">
+                        <div class="edu-placeholder">
+                            <i class="fas fa-university"></i>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology in Information Technology</h3>
+                        <p class="institution">Baba Ghulam Shah Badshah University, Rajouri</p>
+                        <p class="period">2023–2027</p>
+                        <p class="status">CGPA: 8.0/10 (Pursuing)</p>
+                        <a href="https://maps.app.goo.gl/st1GNwnLm69K3pQd7" target="_blank" class="location-link">
+                            <i class="fas fa-map-marker-alt"></i> View Location
+                        </a>
+                    </div>
+                </div>
+
+                <div class="education-card animate-on-scroll">
+                    <div class="education-image">
+                        <div class="edu-placeholder">
+                            <i class="fas fa-school"></i>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <h3>Higher Secondary Education (Non-Medical)</h3>
+                        <p class="institution">RUIHSS Poonch</p>
+                        <p class="period">2021–2023</p>
+                        <p class="status">Percentage: 87%</p>
+                        <a href="https://maps.app.goo.gl/YRt32L2Z3rezcXEU8" target="_blank" class="location-link">
+                            <i class="fas fa-map-marker-alt"></i> View Location
+                        </a>
+                    </div>
+                </div>
+
+                <div class="education-card animate-on-scroll">
+                    <div class="education-image">
+                        <div class="edu-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <h3>Secondary Education</h3>
+                        <p class="institution">Yaseen English School Mandi, Poonch</p>
+                        <p class="period">2016–2021</p>
+                        <p class="status">Percentage: 92%</p>
+                        <a href="https://maps.app.goo.gl/xBraP7Po46GEzWA77" target="_blank" class="location-link">
+                            <i class="fas fa-map-marker-alt"></i> View Location
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">My technical proficiencies and capabilities</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Advanced proficiency in Python for AI, automation, and data analysis</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersecurity</h3>
+                    <p>Expertise in ethical hacking, penetration testing, and security protocols</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Building interactive web applications with modern JavaScript</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>Proficient in SQL, MongoDB, and data modeling</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                    <span class="skill-percentage">75%</span>
+                </div>
+
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <p>Developing dynamic user interfaces with React.js</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+
+                <div class="skill-card animate-on-scroll">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Implementing ML algorithms with TensorFlow and Scikit-learn</p>
+                    <div class="skill-progress-container">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section section-alt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Professional achievements and credentials</p>
+            </div>
+
+            <div class="certificates-grid">
+                <div class="certificate-card animate-on-scroll">
+                    <div class="certificate-image">
+                        <div class="cert-placeholder">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Common Internship Test</h3>
+                        <p class="issuer">Internship Studio</p>
+                        <p class="year">2023</p>
+                        <p class="description">Participated in the Common Internship Test conducted by Internship Studio</p>
+                        <a href="certificates/certificate1.pdf" target="_blank" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certificate-card animate-on-scroll">
+                    <div class="certificate-image">
+                        <div class="cert-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>AI Masterclass</h3>
+                        <p class="issuer">Skill Nation</p>
+                        <p class="year">2024</p>
+                        <p class="description">Completed a live AI masterclass conducted by a Microsoft Certified Expert</p>
+                        <a href="certificates/certificate2.pdf" target="_blank" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certificate-card animate-on-scroll">
+                    <div class="certificate-image">
+                        <div class="cert-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Cybersecurity Internship</h3>
+                        <p class="issuer">C-DAC Noida</p>
+                        <p class="year">Jan–Mar 2025</p>
+                        <p class="description">Completed training in Ethical Hacking and Penetration Testing</p>
+                        <a href="certificates/cert3.pdf" target="_blank" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certificate-card animate-on-scroll">
+                    <div class="certificate-image">
+                        <div class="cert-placeholder">
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Python for Data Science</h3>
+                        <p class="issuer">Coursera</p>
+                        <p class="year">2024</p>
+                        <p class="description">Mastered Python libraries for data analysis and visualization</p>
+                        <a href="certificates/cert4.pdf" target="_blank" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Awards & Recognition</h2>
+                <p class="section-subtitle">Honors and achievements throughout my journey</p>
+            </div>
+
+            <div class="awards-grid">
+                <div class="award-card animate-on-scroll">
+                    <div class="award-icon award-gold">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Best Innovator Award</h3>
+                        <p class="award-event">BGSBU Hackathon</p>
+                        <p class="award-year">2023</p>
+                        <p class="award-description">Recognized for developing an AI-based security monitoring tool</p>
+                    </div>
+                </div>
+
+                <div class="award-card animate-on-scroll">
+                    <div class="award-icon award-purple">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Top Performer</h3>
+                        <p class="award-event">National Coding Championship</p>
+                        <p class="award-year">2024</p>
+                        <p class="award-description">Ranked among the top 10 in a nationwide coding contest</p>
+                    </div>
+                </div>
+
+                <div class="award-card animate-on-scroll">
+                    <div class="award-icon award-green">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="award-content">
+                        <h3>Community Service Award</h3>
+                        <p class="award-event">BGSBU</p>
+                        <p class="award-year">2022</p>
+                        <p class="award-description">Honored for contributions to campus cleanliness initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my development work and innovations</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sardar Dulla Community</h3>
+                        <p>A cultural platform to preserve and showcase the Sardar Dulla community's heritage</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://zaheer.github.io/sardardullicommunity/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>BGSBU Cleanliness</h3>
+                        <p>Web app for reporting campus cleanliness with a rating system</p>
+                        <div class="project-tags">
+                            <span class="tag">Web App</span>
+                            <span class="tag">Rating System</span>
+                        </div>
+                        <a href="https://zaheer.github.io/BGSBU-Cleanliness-Page/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Resume Generator</h3>
+                        <p>A web app for creating professional resumes with ease</p>
+                        <div class="project-tags">
+                            <span class="tag">Generator</span>
+                            <span class="tag">PDF Export</span>
+                        </div>
+                        <a href="https://example.com/resumegen" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fab fa-react"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>React Projects Collection</h3>
+                        <p>A collection of React.js projects showcasing UI/UX and APIs</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">API Integration</span>
+                        </div>
+                        <a href="https://example.com/react-projects" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Chatbot</h3>
+                        <p>An intelligent chatbot for customer support using NLP</p>
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="https://example.com/ai-chatbot" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Testimonials</h2>
+                <p class="section-subtitle">What people say about my work</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p class="testimonial-text">"Zaheer is an exceptional developer with a keen eye for innovation."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <div class="author-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="author-info">
+                            <h4>Dr. John Smith</h4>
+                            <p>Professor, BGSBU</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p class="testimonial-text">"His cybersecurity expertise helped secure our systems effectively."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <div class="author-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>IT Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p class="testimonial-text">"Zaheer's AI projects are both creative and impactful."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <div class="author-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ali Khan</h4>
+                            <p>Peer Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section section-alt">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Team</h2>
+                <p class="section-subtitle">Meet the talented individuals behind the work</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card animate-on-scroll">
+                    <div class="team-image">
+                        <div class="team-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>Zaheer Ahmed</h3>
+                        <p class="team-role">Lead Developer & AI Specialist</p>
+                        <div class="team-social">
+                            <a href="https://linkedin.com/in/zaheer-ahmed-9aa78130a" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Zaheer-Ahmed015" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card animate-on-scroll">
+                    <div class="team-image">
+                        <div class="team-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>Aisha Khan</h3>
+                        <p class="team-role">UI/UX Designer</p>
+                        <div class="team-social">
+                            <a href="#" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card animate-on-scroll">
+                    <div class="team-image">
+                        <div class="team-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="team-content">
+                        <h3>Tahir Naseer</h3>
+                        <p class="team-role">Cybersecurity Consultant</p>
+                        <div class="team-social">
+                            <a href="https://linkedin.com/in/imtahirnaseer/" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your next project or collaboration</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Poonch, Jammu & Kashmir, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+919103219876">+91 910-321-9876</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:zaheerkhanzaheer015@gmail.com">zaheerkhanzaheer015@gmail.com</a>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/zaheer-ahmed-9aa78130a" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Zaheer-Ahmed015" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/zaheerkhan04ITE" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="http://t.me/IT_Zaheer" target="_blank" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form animate-on-scroll">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span>ZA</span>
+                        </div>
+                        <h3>Zaheer Ahmed</h3>
+                    </div>
+                    <p>AI & ML Enthusiast passionate about creating innovative solutions that make a difference in technology and cybersecurity.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="resume.pdf" target="_blank">Resume</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates about my latest projects and achievements.</p>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your email address" required>
+                        <button type="submit" class="btn-newsletter">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zaheer Ahmed. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Chat Icon -->
+    <a href="https://wa.me/919103219876" target="_blank" class="whatsapp-btn" aria-label="WhatsApp Chat">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>
